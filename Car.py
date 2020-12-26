@@ -23,12 +23,15 @@ class Car:
         else:
             pass
 
+    
+
 
 if __name__ == '__main__':
 
     my_car = Car()
     print("I'm a car!")
-    print("I'm the car of Engin")
+    print("starting the engine")
+    
     while True:
         action = input("What should I do? [A]ccelerate, [B]rake, "
                        "show [O]dometer, or show average [S]peed?").upper()
